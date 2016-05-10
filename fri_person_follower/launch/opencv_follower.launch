@@ -1,0 +1,7 @@
+<launch>
+    <group>
+        <node pkg="sound_play" name="soundplay_node" type="soundplay_node.py" output="screen"/>
+        <node pkg="opencv_person_detector" name="opencv_person_detector" type="opencv_person_detector"/>
+        <node pkg="fri_person_follower" name="opencv_person_follower" type="opencv_person_follower_node"/>
+    </group>
+</launch>
