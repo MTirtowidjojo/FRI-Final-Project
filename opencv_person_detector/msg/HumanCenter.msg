@@ -1,0 +1,2 @@
+geometry_msgs/Point human_center
+geometry_msgs/Point image_center

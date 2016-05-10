@@ -1,0 +1,2 @@
+opencv_person_detector/Human human
+geometry_msgs/Point image_center
